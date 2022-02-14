@@ -32,6 +32,6 @@ while status:
        #Ask user if he/she wants to play
        game_decision = input("Do you still want to play? Y-(yes) or N-(no) ").upper()
        if game_decision == 'N':
-              break
+              status = False
 
 
